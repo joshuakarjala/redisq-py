@@ -1,0 +1,7 @@
+redisq-py
+=========
+
+.. image:: https://secure.travis-ci.org/joshuakarjala/redisq-py.png?branch=master
+   :target: http://travis-ci.org/joshuakarjala/redisq-py
+
+Python client for https://github.com/runk/redisq (Fast message processing queue backed up by redis and nodejs)
