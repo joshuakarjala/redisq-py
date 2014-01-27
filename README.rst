@@ -5,3 +5,10 @@ redisq-py
    :target: http://travis-ci.org/joshuakarjala/redisq-py
 
 Python client for https://github.com/runk/redisq (Fast message processing queue backed up by redis and nodejs)
+
+
+Example::
+    task_dict = {"foo": "bar"}
+    queue = RedisqClient("foo:bar")
+    task = Task(json.dumps(task_dict))
+    queue.pushTask(task)

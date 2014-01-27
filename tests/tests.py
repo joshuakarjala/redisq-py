@@ -1,7 +1,6 @@
 from nose.tools import assert_raises
 
-from redisq.client import RedisqClient
-from redisq.task import Task
+from redisq import RedisqClient, Task
 
 
 def test():
