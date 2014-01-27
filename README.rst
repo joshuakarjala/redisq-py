@@ -19,3 +19,7 @@ Example
     task = Task(json.dumps(task_dict))
 
     queue.pushTask(task)
+
+
+    #Connecting to non-default Redis Server
+    queue = RedisqClient("foo:bar", host="foo", port=6389, password="bar", db=1)
